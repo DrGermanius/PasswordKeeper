@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.AddAccountActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/newAccountNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EnterAccountName" />
+
+        <EditText
+            android:id="@+id/newAccountLoginTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EnterAccountLogin" />
+
+        <EditText
+            android:id="@+id/newAccountPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EnterPassword" />
+
+        <EditText
+            android:id="@+id/newAccountDescriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EnterDescription" />
+
+        <Button
+            android:id="@+id/CreateAccountButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="AddAccount"
+            android:text="Create Account" />
+
+        <Button
+            android:id="@+id/generatePassButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="GeneratePasswordClick"
+            android:text="generate password" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

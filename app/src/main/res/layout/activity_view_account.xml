@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.ViewAccountActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/currentAccountNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/currentAccountLoginTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/currentAccountPasswordTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/currentAccountDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="EditAccountButtonClick"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/generatePassButton_showActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="GeneratePasswordClick"
+            android:visibility="gone"
+            android:text="generate new password" />
+
+        <Button
+            android:id="@+id/Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="SaveAccountButtonClick"
+            android:visibility="gone"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/Delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="DeleteAccountButtonClick"
+            android:text="Delete" />
+
+        <TextView
+            android:id="@+id/HintText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="You can copy value from field by click on it. For back to Account's list click 'Back' on your device." />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

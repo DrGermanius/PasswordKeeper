@@ -49,8 +49,8 @@ public class RegistrationActivity extends AppCompatActivity {
             welcomeButton.setText("Register");
             welcomeButton.setOnClickListener(v -> {
                 loginService.addPassword(welcomePass.getText().toString());
+                startActivity(intentToMain);
             });
-            startActivity(intentToMain);
 
         }
     }

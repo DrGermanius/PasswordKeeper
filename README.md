@@ -8,4 +8,4 @@
 1) Логин: 
 
 ![alt text](demonstration/screenshots/1.jpg "Логин")
-![alt text](demonstration/gifs/1.jpg "Логин")
+![alt text](demonstration/gifs/1.gif "Логин")

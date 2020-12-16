@@ -6,6 +6,5 @@
 
 Демонстрация работы:
 1) Логин: 
-
-![alt text](demonstration/screenshots/1.jpg  =250x250)
+<img src="demonstration/screenshots/1.jpg" width="40" height="40" />
 ![alt text](demonstration/gifs/1.gif "Логин")

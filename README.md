@@ -18,6 +18,10 @@
 
 <img src="demonstration/gifs/2.gif" width="250" height="400" /> 
 
+ При просмотре аккаунта имеется возможность копировать значения путем тапа по определенному полю:
+ 
+ <img src="demonstration/gifs/5.gif" width="250" height="400" /> 
+
 Редактирование аккаунта:
 
 <img src="demonstration/gifs/3.gif" width="250" height="400" /> 

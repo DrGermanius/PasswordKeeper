@@ -1,5 +1,4 @@
 # PasswordKeeper Samolazov Herman 
-# [Записка](demonstration/zapiska.docx)
 
 Приложение для генерации и хранения пароль для аккаунтов.
 

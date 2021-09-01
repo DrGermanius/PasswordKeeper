@@ -1,12 +1,23 @@
-# PasswordKeeper Samolazov Herman 
+# PasswordKeeper
 
-Приложение для генерации и хранения пароль для аккаунтов.
+App for generation and safe password storing
 
-Функциональные возможности: создание аккаунта(логин, пароль, описание), генерация надежного пароля, удаление и редактированию аккаунта.
+Used my self-written [algorithm](https://github.com/DrGermanius/PasswordKeeper/blob/master/app/src/main/java/com/example/passwordkeeper/services/PasswordService.java) for password creation
 
-Для защиты данных используется SQLCipher, запрет на скриншоты и съемку видео и биометрическая аутентификация в формате входа по пальцу(еcли на устройстве нет сканера отпечка пальца, то используется текстовый пароль).
+# Features: 
+* Creating an account with the following fields: login, pass, description
+* Generating a strong password
+* Editing and deleting accounts
 
-Логин:
+
+# Data security was provided by:
+* SQLCipher for data encryption 
+* Forbiddance of screenshots and screen-recording
+* Biomertic authentication (fingerprint if supported by hardware)
+
+# Demo
+
+Log in:
 
 <img src="demonstration/gifs/1.gif" width="250" height="400" /> 
 <img src="demonstration/screenshots/1.jpg" width="250" height="400" />
@@ -14,18 +25,18 @@
 <img src="demonstration/screenshots/3.jpg" width="250" height="400" />
 <img src="demonstration/screenshots/4.jpg" width="250" height="400" />
 
-Добавление аккаунта и генерация пароля (**гифка показывается циклично, поэтому кажется, что аккаунт пропадает**): 
+Adding an account and password generation:
 
 <img src="demonstration/gifs/2.gif" width="250" height="400" /> 
 
- При просмотре аккаунта имеется возможность копировать значения путем тапа по определенному полю:
+Copying field values by tap:
  
  <img src="demonstration/gifs/5.gif" width="250" height="400" /> 
 
-Редактирование аккаунта:
+Account editing:
 
 <img src="demonstration/gifs/3.gif" width="250" height="400" /> 
 
-Удаление аккаунта:
+Account removing:
 
 <img src="demonstration/gifs/4.gif" width="250" height="400" /> 
